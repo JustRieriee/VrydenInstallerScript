@@ -31,19 +31,19 @@ case $input in
 
     1)
     apt update
-    wget -N https://github.com/dxomg/vpsfreescripts/raw/main/vpsfreescripts/minecraftscript/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/JustRieriee/VrydenInstallerScript/main/VrydenInstallerScript/minecraftscript/install.sh && bash install.sh;;
     2)
     apt update
     apt install curl -y
-    wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/warpv6/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/JustRieriee/VrydenInstallerScript/main/VrydenInstallerScript/warpv6/install.sh && bash install.sh;;
     3)
     apt update
     apt install wget -y
     mkdir playit && cd playit
-    wget https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/playit-0.9.3
+    wget https://github.com/JustRieriee/VrydenInstallerScript/tree/main/playit-0.9.3
     mv playit-0.9.3 playit
     chmod 755 playit
-    echo "PLAYIT INSTALLATION COMPLETE! proceeding in 3s"
+    echo "Playit Installation Complete! Proceeding In 3S"
     sleep 3
     ./playit;;
     4)
@@ -54,7 +54,7 @@ case $input in
     sudo pufferpanel user add
     sudo systemctl enable --now pufferpanel;;
     5)
-    wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/websitescript/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/JustRieriee/VrydenInstallerScript/main/VrydenInstallerScript/websitescript/install.sh && bash install.sh;;
     6)
     wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/crdpscript/install.sh && bash install.sh;;
     7)
@@ -65,6 +65,6 @@ case $input in
     echo ""
     echo "##############################";;
     8)
-    wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/ptero/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/JustRieriee/VrydenInstallerScript/main/VrydenInstallerScript/ptero/install.sh && bash install.sh;;
     9) echo "Exit" && exit;;
 esac
