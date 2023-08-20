@@ -56,7 +56,7 @@ case $input in
     5)
     wget -N https://raw.githubusercontent.com/JustRieriee/VrydenInstallerScript/main/VrydenInstallerScript/websitescript/install.sh && bash install.sh;;
     6)
-    wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/crdpscript/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/JustRieriee/VrydenRDP/main/install.sh && bash install.sh;;
     7)
     apt install git neofetch sudo
     echo "##############################"
